@@ -9,4 +9,5 @@ Increasing the trigger process time increases latency but can increase throughpu
 
 
 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
-	Testingt he most optimal is possible by looking at the processed rows per second and the input rows per second on the progress report. 1000 offsets per second, with max rate of 100 and trigger time of 10 seconds worked well relative to those values around it, processing 135 rows per second.
+
+Testing the most optimal is possible by looking at the processed rows per second and the input rows per second on the progress report. 1000 offsets per second, with max rate of 100 and trigger time of 10 seconds worked well relative to those values around it, processing 135 rows per second.
